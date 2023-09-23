@@ -38,9 +38,9 @@ Option # 1
    
 Option #2
 clone the repository using git version control system
-
+'''
 $ git clone https://github.com/afilimonov/udacity-deeprl-p3-collaboration-competition.git
-
+'''
 
 # Install Miniconda
 Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib, and a few others.
@@ -59,26 +59,30 @@ Installation guide:  https://docs.anaconda.com/anaconda/install/
 
 # Configure the Environment
 1. Create the environment:
+   '''
    $ conda create --name udacity-drlnd-p3 python=3.6
    $ conda activate udacity-drlnd-p3
-2. Install PyTorch:
+   '''
+3. Install PyTorch:
    Follow [this link](https://pytorch.org/get-started/locally/) to find the correct dependencies to install Pytorch
 
    For Linux:
    Run this command if you have an NVIDIA graphic card and want to use it
-     
+   '''  
    $ conda install pytorch cudatoolkit=10.1 -c pytorch
-
+    '''
    Run this command, otherwise
-   
+   '''
    $ conda install pytorch cpuonly -c pytorch
-
+    '''
    For Mac OS:
-   
+    '''
    $ conda install pytorch -c pytorch
-
+     '''
  4. Install Unity Agents:
+    '''
     $ pip install unityagents
+    '''
 
 # Download the Environment
 
