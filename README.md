@@ -39,9 +39,9 @@ Option # 1
 Option #2
 clone the repository using git version control system
 
-'''
+```
 $ git clone https://github.com/afilimonov/udacity-deeprl-p3-collaboration-competition.git
-'''
+```
 
 # Install Miniconda
 Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib, and a few others.
