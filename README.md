@@ -61,10 +61,10 @@ Installation guide:  https://docs.anaconda.com/anaconda/install/
 # Configure the Environment
 1. Create the environment:
    
-   '''
+   ```
    $ conda create --name udacity-drlnd-p3 python=3.6
    $ conda activate udacity-drlnd-p3
-   '''
+   ```
    
 3. Install PyTorch:
    Follow [this link](https://pytorch.org/get-started/locally/) to find the correct dependencies to install Pytorch
@@ -72,26 +72,26 @@ Installation guide:  https://docs.anaconda.com/anaconda/install/
    For Linux:
    Run this command if you have an NVIDIA graphic card and want to use it
    
-   '''  
+   ```  
    $ conda install pytorch cudatoolkit=10.1 -c pytorch
-    '''
+    ```
    
    Run this command, otherwise
    
-   '''
+   ```
    $ conda install pytorch cpuonly -c pytorch
-    '''
+    ```
    
    For Mac OS:
    
-    '''
+    ```
    $ conda install pytorch -c pytorch
-     '''
+     ```
  5. Install Unity Agents:
 
-    '''
+    ```
     $ pip install unityagents
-    '''
+    ```
 
 # Download the Environment
 
