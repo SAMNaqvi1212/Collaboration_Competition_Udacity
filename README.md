@@ -32,16 +32,26 @@ This README.md file
 # Installing Dependencies
 Option # 1
 1) Download it as a zip file
+   
 2) [click here](https://github.com/ekaakurniawan/DRLND/tree/master/p3_collab-compet) to download all the relevant files
+
+   
 Option #2
 clone the repository using git version control system
+
 $ git clone https://github.com/afilimonov/udacity-deeprl-p3-collaboration-competition.git
+
+
 # Install Miniconda
 Miniconda is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib, and a few others.
 
 If you would like to know more about Anaconda, [visit this link](https://www.anaconda.com/).
+
+
 In the following links, you find all the information to install Miniconda (recommended)
+
 Download the installer:  https://docs.conda.io/en/latest/miniconda.html
+
 Installation guide: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 Download the installer: https://www.anaconda.com/distribution/
@@ -55,16 +65,19 @@ Installation guide:  https://docs.anaconda.com/anaconda/install/
    Follow [this link](https://pytorch.org/get-started/locally/) to find the correct dependencies to install Pytorch
 
    For Linux:
-   ## Run this command if you have an NVIDIA graphic card and want to use it  
+   Run this command if you have an NVIDIA graphic card and want to use it
+     
    $ conda install pytorch cudatoolkit=10.1 -c pytorch
 
-   ## Run this command, otherwise
+   Run this command, otherwise
+   
    $ conda install pytorch cpuonly -c pytorch
 
    For Mac OS:
+   
    $ conda install pytorch -c pytorch
 
- 3. Install Unity Agents:
+ 4. Install Unity Agents:
     $ pip install unityagents
 
 # Download the Environment
